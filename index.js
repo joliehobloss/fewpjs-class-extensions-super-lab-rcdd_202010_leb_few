@@ -21,7 +21,7 @@ class Deciduous extends Tree{
   }
   
     static definition(){
-    return super.definition()=' which are all equal';
+    return super.definition() + ' which are all equal';
   }
 }
 

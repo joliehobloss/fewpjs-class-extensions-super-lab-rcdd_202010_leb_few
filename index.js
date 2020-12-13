@@ -14,22 +14,11 @@ class Tree{
 let tree = new Tree( 'Maple' )
 tree.species
 
+class 
+
 
 /*describe( "Tree", () => {
   let tree
-
-  it( 'initializes an instance with one parameter and assigns it to `species`', () => {
-    tree = new Tree( 'Maple' )
-    expect( tree.species )
-      .to.eql( 'Maple' )
-  } )
-
-  it( 'has a static method `definition` that returns a sentence on trees', () => {
-    expect( Tree.definition() )
-      .to.eql( "A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves." )
-  } )
-
-} )
 
 describe( "Deciduous", () => {
   let oak

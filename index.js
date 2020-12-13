@@ -23,27 +23,9 @@ class Deciduous extends Tree{
   }
 }
 
-
+class 
 /*describe( "Tree", () => {
   let tree
-
-describe( "Deciduous", () => {
-  let oak
-
-  it( 'initializes with two parameters, species and name, and uses `super` to set `species`', () => {
-    oak = new Deciduous( 'Oak', 'Professor' )
-    expect( oak.species )
-      .to.eql( 'Oak' )
-    expect( oak.name )
-      .to.eql( 'Professor' )
-  } )
-
-  it( 'has a static method `definition` that uses `super.definition` and expands on it', () => {
-    expect( Deciduous.definition() )
-      .to.eql( "A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves. Deciduous trees shed their leaves annually." )
-  } )
-
-} )
 
 describe( "Evergreen", () => {
   let fir

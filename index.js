@@ -15,9 +15,8 @@ let tree = new Tree( 'Maple' )
 tree.species
 
 class Deciduous extends Tree{
-    constructor(species,name){
-      super(species);
-    this.species=species;
+ constructor(species,name){
+    super(species);
     this.name=name;
   }
 }

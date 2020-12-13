@@ -1,7 +1,7 @@
 // Write your classes here
 
 class Tree{
-  constructer(species){
+   constructor(species){
     this.species=species;
   }
   
@@ -9,6 +9,7 @@ class Tree{
 
 let tree = new Tree( 'Maple' )
 tree.species
+
 
 /*describe( "Tree", () => {
   let tree

@@ -14,7 +14,13 @@ class Tree{
 let tree = new Tree( 'Maple' )
 tree.species
 
-class Deciduous 
+class Deciduous extends Tree{
+    constructor(species,name){
+      super(species);
+    this.species=species;
+    this.name=name;
+  }
+}
 
 
 /*describe( "Tree", () => {

@@ -11,8 +11,6 @@ class Tree{
   
 }
 
-let tree = new Tree( 'Maple' )
-tree.species
 
 class Deciduous extends Tree{
  constructor(species,name){

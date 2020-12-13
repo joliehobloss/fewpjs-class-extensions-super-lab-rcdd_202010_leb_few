@@ -9,6 +9,7 @@ class Tree{
 
 let tree = new Tree( 'Maple' )
 tree.species
+
 /*describe( "Tree", () => {
   let tree
 

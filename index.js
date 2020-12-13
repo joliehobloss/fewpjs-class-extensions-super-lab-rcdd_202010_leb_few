@@ -14,13 +14,13 @@ class Tree{
 let tree = new Tree( 'Maple' )
 tree.species
 
-class Deciduous extends Tree{
+class Deciduous extend Tree{
  constructor(species,name){
     super(species);
     this.name=name;
   }
   
-    static definition(){
+   static definition(){
     return super.definition() + '  Deciduous trees shed their leaves annually.';
   }
 }

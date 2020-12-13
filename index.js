@@ -14,7 +14,7 @@ class Tree{
 let tree = new Tree( 'Maple' )
 tree.species
 
-class 
+class Deciduous 
 
 
 /*describe( "Tree", () => {

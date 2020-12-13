@@ -5,6 +5,8 @@ class Tree{
     this.species=species;
   }
   
+  static 
+  
 }
 
 let tree = new Tree( 'Maple' )
